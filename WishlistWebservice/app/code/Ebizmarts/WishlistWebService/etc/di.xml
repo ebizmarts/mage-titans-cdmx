@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @copyright Copyright (c) 2017 Ebizmarts corp. (https://ebizmarts.com)
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="Ebizmarts\WishlistWebService\Api\WishlistInterface"
+                type="Ebizmarts\WishlistWebService\Model\Wishlist" />
+    <preference for="Ebizmarts\WishlistWebService\Api\Data\AddToWishlistInterface"
+                type="Ebizmarts\WishlistWebService\Api\Data\AddToWishlist" />
+</config>
